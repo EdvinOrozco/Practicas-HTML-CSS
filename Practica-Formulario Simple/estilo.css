@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(183, 52, 16), rgb(184, 201, 29));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+}
+.contenedor h1{
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.contenido{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contenedores-hijos{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.contenedores-hijos input{
+    height: 35px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1.5px;
+}
+input{
+    padding: 8px;
+}
+.cc{
+    margin-top: 20px;
+}
+
+.btn{
+    font-weight: bold;
+    margin: 60px 0;
+    background-color: rgba(0, 255, 145, 0.578);
+}
+.btn:hover{
+    background: linear-gradient(45deg,rgb(0, 183, 255), rgb(0, 255, 153));
+}
+.contenedores-hijos .btn{
+    font-size: 15px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+/*EL CODIGO ES UN RELAJO PERO ANDO PRACTICANDO :)*/
